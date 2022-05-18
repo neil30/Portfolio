@@ -547,7 +547,7 @@ header .nav__items {
   height: fit-content;
   width: fit-content;
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #main .right img {
@@ -572,6 +572,10 @@ header .nav__items {
 }
 
 @media (max-width: 500px) {
+  #main .left {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
   #main .right img {
     height: 250px;
   }
