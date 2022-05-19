@@ -1133,7 +1133,9 @@ p {
   margin-top: 6px;
 }
 
-#contact .container .input-field label {
+#contact .container .input-field label,
+#contact .container .input-field-topic label,
+#contact .container .input-field-textarea label {
   font-size: 0.9rem;
   color: var(--title-color);
 }
