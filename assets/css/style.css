@@ -607,8 +607,9 @@ header .nav__items {
 
 #about .left img {
   margin: auto;
-  height: auto;
-  width: 100%;
+  height: 500px;
+  width: auto;
+  border-radius: 10px;
 }
 
 #about .right {
